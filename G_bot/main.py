@@ -31,4 +31,4 @@ async def send(ctx, to, *,msg ):
 
 
 
-client.run('OTcwNjY3Njk0MTI0ODM4OTIy.Ym_SvA.yeEpWTokQdF4IGhjMFTiv4P_-CA')
+client.run("SECRET")
