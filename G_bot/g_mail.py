@@ -47,8 +47,3 @@ def send_mail(to, msg):
 def send_details():
         draft = service.users().drafts().create(userId = 'me', body = create_msg).execute()
         return (f"Message: {draft['message']}\nID: {draft['id']}")
-
-
-
-
-
